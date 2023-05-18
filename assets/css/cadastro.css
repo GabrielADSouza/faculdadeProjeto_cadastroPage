@@ -15,7 +15,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #59d056;
+  background: #ffffff;
+}
+
+.logocad img {
+  position: absolute;
+  width: 164px;
+  left: 1640px;
+  top: 384px;
 }
 
 /*CONTAINER---------------------------------------------------------------------------*/
@@ -28,7 +35,8 @@ body {
 }
 
 .form-image img {
-  width: 31rem;
+  width: 53.8rem;
+  margin-right: 292px;
 }
 
 .container {
@@ -46,7 +54,8 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: #fff;
-  padding: 3rem;
+  padding: 8rem;
+  margin-left: -95px;
 }
 
 .form-header {
