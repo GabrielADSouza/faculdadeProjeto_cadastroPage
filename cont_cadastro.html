@@ -5,10 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- fontawesome -->
+    <link rel="stylesheet" href="assets\css\cont_cadastro.css"> <!-- css page -->
+    <title>Cadastre-se</title> <!-- site title -->
 </head>
 
 <body>
+    <div class="logocad">
+        <img src="assets\img\logo-jpg.jpg" alt="Vegan Food">
+    </div>
+    <div class="container"> <!-- container -->
+        <div class="form-image"> <!-- image background -->
+            <img src="assets\img\food2-2.png" alt="Vegan Food"> <!-- image -->
+        </div>
+        <div class="form"> <!-- form -->
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1> <!-- form title -->
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button> <!-- button for login -->
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box"> <!-- BOX full name -->
+                        <label for="firstname">Email</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu melhor email"
+                            required>
+                    </div>
+                    <div class="input-box"> <!-- BOX CPF -->
+                        <label for="cpf">Confirme seu Email</label>
+                        <input id="cpf" type="number" name="cpf" placeholder="Digite novamente seu email" required>
+                    </div>
+                    <div class="input-box"> <!-- BOX enderess -->
+                        <label for="enderess">Senha</label>
+                        <input id="enderess" type="text" name="enderess" placeholder="Digite sua senha" required>
+                    </div>
+                    <div class="input-box"> <!-- BOX number -->
+                        <label for="number">Confirme sua Senha</label>
+                        <input id="number" type="number" name="number" placeholder="Digite novamente sua senha"
+                            required>
+                    </div>
+
+                    <div class="continue-button"> <!--continue button -->
+                        <button><a href="#">Continuar <i class="fa-solid fa-angle-up"></i></a></button>
+                    </div>
+            </form>
+        </div>
+    </div>
 
 </body>
 
